@@ -21,4 +21,4 @@ RUN pip install --no-cache-dir cython \
  && pip install --no-cache-dir -r /requirements.txt
 
 # Copy SSD code
-COPY ssd .
+COPY pytorch .
